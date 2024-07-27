@@ -1,0 +1,104 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <link
+    href="https://cdn.jsdelivr.net/npm/remixicon@3.2.0/fonts/remixicon.css"
+    rel="stylesheet"
+  />
+  <link rel="stylesheet" href="styles.css" />
+  <title>Web Design Mastery | Responsive Portfolio</title>
+</head>
+<body>
+  <section id="home">
+    <nav>
+      <div class="nav__content">
+        <div class="logo"><a href="#">Deepak Routhu</a></div>
+        <label for="check" class="checkbox">
+          <i class="ri-menu-line"></i>
+        </label>
+        <input type="checkbox" name="check" id="check" />
+        <ul>
+          <li><a href="#home">Home</a></li>
+          <li><a href="#aboutme">About</a></li>
+          <li><a href="#skills">Skills</a></li>
+          <li><a href="#contact">Contact</a></li>
+        </ul>
+      </div>
+    </nav>
+    <section class="section">
+      <div class="section__container">
+        <div class="content">
+          <p class="subtitle">HELLO</p>
+          <h1 class="title">
+            I'm <span>Deepak Routhu<br /></span> 
+          </h1>
+          <p class="description">
+            HI! I'm Deepak Routhu, Student at University College of Engineering, Vizianagaram
+            I'm a frontend developer with a passion for building user-friendly applications.
+          </p>
+          <div class="action__btns">
+            <button class="portfolio">Download CV</button>
+          </div>
+        </div>
+        <div class="image">
+          <img src="1.png" alt="1" />
+        </div>
+      </div>
+    </section>
+  </section>
+
+  <section id="aboutme">
+    <div class="about">
+      <h3 class="h">ABOUT</h3>
+      <p>Hi, I’m DEEPAK ROUTHU, a front-end web developer with a passion for creating clean, responsive websites.
+        With expertise in HTML, CSS, and JavaScript, I build engaging user interfaces that blend aesthetics with functionality.
+        I enjoy staying current with web trends and love collaborating to turn ideas into reality.
+        Let’s work together to bring your vision to life!
+      </p>
+    </div>
+    <div class="cert">
+      <h3 class="c">CERTIFICATES</h3>
+      <img src="cert1.png" class="i1" />
+      <img src="cert2.png" class="i2" />
+    </div>
+  </section>
+
+  <section id="skills" class="skills">
+    <h1 class="skill-head">MY <span>Skills</span></h1>
+    <div class="skill-container">
+      <div class="skill-box">
+        <h3>HTML</h3>
+        <p>HTML is the backbone of the web, providing structure and content. It's a standard markup language used to create web pages, allowing developers to define elements like headings, paragraphs, images, and links. HTML is written in a series of elements, represented by tags, which wrap around content to apply meaning and context.</p>
+      </div>
+      <div class="skill-box">
+        <h3>CSS</h3>
+        <p>CSS (Cascading Style Sheets) is a styling language used to control the layout and appearance of web pages written in HTML or XML. It's a crucial aspect of web development, allowing developers to separate presentation from content and create visually appealing websites. CSS consists of rules, known as styles, that are applied to elements on a web page to define their layout, colors, fonts, and more.</p>
+      </div>
+      <div class="skill-box">
+        <h3>JavaScript</h3>
+        <p>JavaScript is a high-level, dynamic, and interpreted programming language that is primarily used for client-side scripting on the web. It allows developers to add interactive elements to websites, create web applications, and manipulate web pages. JavaScript is often used to validate form data, create animations, and respond to user interactions.</p>
+      </div>
+    </div>
+  </section>
+
+  <section id="contact" class="contact">
+    <form class="contact-form">
+      <h2>Let's Connect!</h2>
+      <label for="name">Name:</label>
+      <input type="text" id="name" name="name" required />
+      
+      <label for="email">Email:</label>
+      <input type="email" id="email" name="email" required />
+      
+      <label for="message">Message:</label>
+      <textarea id="message" name="message" rows="5" required></textarea>
+      
+      <button type="submit">Send Message</button>
+    </form>
+  </section>
+
+</body>
+</html>
